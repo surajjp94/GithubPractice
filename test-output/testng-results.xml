@@ -2,6 +2,7 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2024-05-21T10:53:40 IST" name="Regression Suite" finished-at="2024-05-21T10:53:40 IST" duration-ms="66">
     <groups>
     </groups>
@@ -42,4 +43,61 @@
       </class> <!-- TestNG.TestNGPractice.TestNG -->
     </test> <!-- TestNG -->
   </suite> <!-- Regression Suite -->
+=======
+  <suite started-at="2024-05-10T18:03:51 IST" name="Suite" finished-at="2024-05-10T18:04:08 IST" duration-ms="16464">
+    <groups>
+    </groups>
+    <test started-at="2024-05-10T18:03:51 IST" name="NewEcom" finished-at="2024-05-10T18:03:51 IST" duration-ms="35">
+    </test> <!-- NewEcom -->
+    <test started-at="2024-05-10T18:03:51 IST" name="SubmitOrder" finished-at="2024-05-10T18:04:08 IST" duration-ms="16464">
+      <class name="com.ecom.automation.test.functinal.SubmitOrder">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.ecom.automation.test.functinal.SubmitOrder@33d512c1]" started-at="2024-05-10T18:03:52 IST" name="launchApplication" finished-at="2024-05-10T18:03:58 IST" duration-ms="6234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:com.ecom.automation.test.functinal.SubmitOrder@33d512c1]" started-at="2024-05-10T18:03:58 IST" name="submitOrder" data-provider="getData" finished-at="2024-05-10T18:04:03 IST" duration-ms="5321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pwd=Suraj@123, email=surajsuri07@gmail.com, productName=QWERTY}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ecom.automation.test.functinal.SubmitOrder@33d512c1]" started-at="2024-05-10T18:04:03 IST" name="tearDown" finished-at="2024-05-10T18:04:04 IST" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=submitOrder status=SUCCESS method=SubmitOrder.submitOrder(java.util.HashMap)[pri:0, instance:com.ecom.automation.test.functinal.SubmitOrder@33d512c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.ecom.automation.test.functinal.SubmitOrder@33d512c1]" started-at="2024-05-10T18:04:04 IST" name="launchApplication" finished-at="2024-05-10T18:04:06 IST" duration-ms="2061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:com.ecom.automation.test.functinal.SubmitOrder@33d512c1]" started-at="2024-05-10T18:04:06 IST" name="orderHistoryTest" finished-at="2024-05-10T18:04:08 IST" depends-on-methods="com.ecom.automation.test.functinal.SubmitOrder.submitOrder" duration-ms="1937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ecom.automation.test.functinal.SubmitOrder@33d512c1]" started-at="2024-05-10T18:04:08 IST" name="tearDown" finished-at="2024-05-10T18:04:08 IST" duration-ms="108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=orderHistoryTest status=SUCCESS method=SubmitOrder.orderHistoryTest()[pri:0, instance:com.ecom.automation.test.functinal.SubmitOrder@33d512c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecom.automation.test.functinal.SubmitOrder -->
+    </test> <!-- SubmitOrder -->
+  </suite> <!-- Suite -->
+>>>>>>> 8e497cc9846b7e230b49bc949319b3954d92f054
 </testng-results>

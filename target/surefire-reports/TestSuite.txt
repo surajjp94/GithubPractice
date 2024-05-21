@@ -1,4 +1,21 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.518 s - in TestSuite
+=======
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.365 s <<< FAILURE! - in TestSuite
+standalone(com.ecom.automation.test.functinal.StandaloneTest)  Time elapsed: 5.459 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (563, 790)
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3552febbd85d99396833255a5079b134, clickElement {id=f.1F314E7CFB37A39435C371E7ED6A4915.d.9CEBD88090A83325A15A697E28EAA1EC.e.97}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63939}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63939/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on windows (3552febbd85d99396833255a5079b134)] -> css selector: .mb-3]] -> css selector: .card-body button:last-of-type]
+Session ID: 3552febbd85d99396833255a5079b134
+	at com.ecom.automation.test.functinal.StandaloneTest.standalone(StandaloneTest.java:45)
+
+>>>>>>> 8e497cc9846b7e230b49bc949319b3954d92f054
